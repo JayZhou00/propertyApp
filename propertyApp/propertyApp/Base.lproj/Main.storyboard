@@ -75,24 +75,6 @@
                                     <constraint firstAttribute="width" constant="30" id="fhn-92-yLo"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvA-HL-AQz" customClass="AwesomeButton" customModule="propertyApp" customModuleProvider="target">
-                                <rect key="frame" x="92" y="495" width="239" height="33"/>
-                                <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="15"/>
-                                <state key="normal" title="seller">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="0.58823529409999997" green="0.71764705880000002" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                        <real key="value" value="0.0"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="showtype:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qjl-tl-U4l"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Administrator Male-48.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gaz-0q-Xbw">
                                 <rect key="frame" x="47" y="495" width="30" height="30"/>
                                 <constraints>
@@ -116,6 +98,24 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvA-HL-AQz" customClass="AwesomeButton" customModule="propertyApp" customModuleProvider="target">
+                                <rect key="frame" x="92" y="495" width="239" height="33"/>
+                                <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="15"/>
+                                <state key="normal" title="seller">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.58823529409999997" green="0.71764705880000002" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showtype:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qjl-tl-U4l"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MC4-tB-dPG" customClass="AwesomeButton" customModule="propertyApp" customModuleProvider="target">
                                 <rect key="frame" x="49" y="607" width="287" height="40"/>
                                 <color key="backgroundColor" red="0.58823529409999997" green="0.71764705880000002" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
