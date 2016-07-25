@@ -1,0 +1,21 @@
+PODS:
+  - DropDown (1.0.1)
+  - LGSideMenuController (1.0.10)
+  - XMSegmentedControl (0.1.4)
+  - ZAlertView (0.2.0)
+
+DEPENDENCIES:
+  - DropDown
+  - LGSideMenuController (~> 1.0.0)
+  - XMSegmentedControl
+  - ZAlertView
+
+SPEC CHECKSUMS:
+  DropDown: 335df9e9547e97a861a60aed8448821e239d3513
+  LGSideMenuController: 8682bdbd0008c1acfbce95eaf96cc3657bca5f95
+  XMSegmentedControl: 51cf4f3daf14920692a064d9252aa7b29622dda6
+  ZAlertView: 8828788f307a43f6e4dbddbf89e74002b587034c
+
+PODFILE CHECKSUM: 3427a12f3e5e2183885b8d7ddc61e5946fedcde2
+
+COCOAPODS: 1.0.1

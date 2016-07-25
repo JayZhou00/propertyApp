@@ -1,0 +1,1169 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C045594FDD3D495B0638BFEE1D60E9 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C7724FCE19FA7F76218608E0B93C1 /* UIColor.swift */; };
+		0BA986536326BCC266A0157A8C204CF8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19898B0869CD9EAE456D59448E49C250 /* DropDown+Appearance.swift */; };
+		0E4A9CFDC8A87BA336CB32A38C20239D /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31FD9703859A0261423A8082ADAA055B /* DropDownCell.xib */; };
+		23B246CDBD02E9C527B6C0AEFD35A372 /* XMSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E1015A281BF5D9D2B1A582A3AFAC5 /* XMSegmentedControl.swift */; };
+		290C998F92562FDE77D91FB6DB8A89D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2BBAC1789D5FEE5D9B3F5B3C048F14E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		311D5A4AFB0F3AEEFCABAA80BE1073D6 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D77BDB0B60F6A041412EA52EC81B7C /* DropDown-dummy.m */; };
+		55F1FC751431D1F2F88E5EA586C76D0E /* LGSideMenuController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2500D9987DF55EA901432F592978F1 /* LGSideMenuController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		567F0E2EA3DD673DA28562ADFC489BE4 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC39C59710C01EA0409DE964C5C56D3F /* DPDKeyboardListener.swift */; };
+		6117927B9C135734D3EEAF0DDCA20A06 /* XMSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 086B7840551E5CACB787D464F85B2BB0 /* XMSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E241480198A2606CAA01FFBF593F8A2 /* ZAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D680EAFBDC792A43314AC144D726947 /* ZAlertView.swift */; };
+		6FAD7D08B301985BF129AC5A2B3D5CF4 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A950F88543E73C070E1EB1473B3FD7EC /* DPDConstants.swift */; };
+		7078ED1B6AFCBEAE3BCD069125A91AF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		74A5308C2E0874E8C97AB9AC5A3A16E2 /* ZAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F0973C4A6C7F46DD1328A0110367A2 /* ZAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77E3F47B9B5BFF547C55AC7573340572 /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FE2F5B438ACE18364ED16CD94B9E03 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AD9B05C28443B4310325AB28ADB53EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		81A9042F668B62EA4E40C57566BEE0A2 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7175281FE43550B009F6B9F7C496DF2 /* DPDUIView+Extension.swift */; };
+		81FCB8C90280A6A920800EC688FDD61F /* LGSideMenuController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 717374084AD099624A826EE8491CD578 /* LGSideMenuController-dummy.m */; };
+		97E4AD3C84E6562DE0F3CB8C4C4C7086 /* ZAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 429A91B18C8C3173CF0785782E3D9D47 /* ZAlertView-dummy.m */; };
+		9811132B36B59EEB8D144F8BCC0B443E /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13BEA259ADD13279565E980159B4618 /* DropDown.swift */; };
+		B38A0A69D41E0238F807CDE369308D2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B5B90139AFA30B849CE6EAFBA6133E8C /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905F85B4486363E6DEF8CE6318B5EF77 /* UIImage.swift */; };
+		C1FCBAC9363DD758CDA98D62B1ADF383 /* LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B20386EEDD0FF35ABB711601FA2632 /* LGSideMenuController.m */; };
+		CE71EFBC33B2157BAFB9B295E08E6903 /* XMSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA5FC85DDAC1162D4799799D0385A78 /* XMSegmentedControl-dummy.m */; };
+		D2B2C73D23209F8B5571D5172C800ED8 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1067C341CA2183F28A74586E7F69BF4E /* DropDownCell.swift */; };
+		D77E0415CC80E10F2D5C7E6A1170D71B /* Pods-propertyApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 499CDED3F7F2CFD0B24AF8DE1ABB6F6C /* Pods-propertyApp-dummy.m */; };
+		EE4DF94AA0C8673BFC25DD709AE1F529 /* LGSideMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E5508336EA112EED3672C25EF42E768 /* LGSideMenuController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F104A7D45BF4742EF3E44CCA0D65E77A /* XMSegmentedControl.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C005C11B029A3ED1C9B38A1E89473D56 /* XMSegmentedControl.bundle */; };
+		F88840596164341D9AF422EFC20F108C /* Pods-propertyApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4C2150C78DB5254BBF417A583CFE53 /* Pods-propertyApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A9FED37E4105F5A3AE75063E3D1803E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A092111711F1F2978FF1D081560D0E46;
+			remoteInfo = ZAlertView;
+		};
+		2998AD7044AA59F8988A07EC85531478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C4C16D41485E07534F53EB05FD612EA;
+			remoteInfo = XMSegmentedControl;
+		};
+		826A9F133CBBB7D6E3F2726135F451D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E69B92A33BF0DA69766632232536DFFD;
+			remoteInfo = LGSideMenuController;
+		};
+		8C1657E6A0D9818CC01FF1EC57C30513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F766ADB76A46AB732825D44C4BAAABF;
+			remoteInfo = DropDown;
+		};
+		FB57D369128885FCFCEBFF13D09493A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A24C03AB81A7A1F42EDB864DB2DD487;
+			remoteInfo = "XMSegmentedControl-XMSegmentedControl";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053E728471D12462A07535D5B5E58048 /* Pods-propertyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-propertyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		086B7840551E5CACB787D464F85B2BB0 /* XMSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
+		1067C341CA2183F28A74586E7F69BF4E /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		1772E2E3500B6A04887908CFC5D66AF3 /* XMSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+		19898B0869CD9EAE456D59448E49C250 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		1B6BF04D54F617BC80AD1CBC9A0AC23C /* Pods-propertyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-propertyApp.release.xcconfig"; sourceTree = "<group>"; };
+		1E5508336EA112EED3672C25EF42E768 /* LGSideMenuController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuController.h; path = LGSideMenuController/LGSideMenuController.h; sourceTree = "<group>"; };
+		23F0973C4A6C7F46DD1328A0110367A2 /* ZAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZAlertView-umbrella.h"; sourceTree = "<group>"; };
+		2430B315BBCFDF50C3D54D21F475D55B /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DropDown.modulemap; sourceTree = "<group>"; };
+		26D77BDB0B60F6A041412EA52EC81B7C /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		2D680EAFBDC792A43314AC144D726947 /* ZAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZAlertView.swift; path = Pod/Classes/ZAlertView.swift; sourceTree = "<group>"; };
+		31FD9703859A0261423A8082ADAA055B /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		3BAD427D00A572140F5EB3B7E98D2590 /* Pods-propertyApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-propertyApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		429A91B18C8C3173CF0785782E3D9D47 /* ZAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZAlertView-dummy.m"; sourceTree = "<group>"; };
+		467D24318B0E075F394F05917EFD4A6D /* ZAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZAlertView.xcconfig; sourceTree = "<group>"; };
+		499CDED3F7F2CFD0B24AF8DE1ABB6F6C /* Pods-propertyApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-propertyApp-dummy.m"; sourceTree = "<group>"; };
+		4B1701803E1D6C69FB5927137BF2C8A1 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		4C774C94E1845672A141E0C6E3981BD0 /* LGSideMenuController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LGSideMenuController.modulemap; sourceTree = "<group>"; };
+		5188B0DF452FCEDB4FC40A9CE5CF240A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BC9A528E923596D50966C64EE59602 /* XMSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMSegmentedControl.xcconfig; sourceTree = "<group>"; };
+		61C6E3D157111215ECE412AE5B903041 /* LGSideMenuController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGSideMenuController-prefix.pch"; sourceTree = "<group>"; };
+		6652BB4251E2B85F865BF33A503A2F06 /* Pods-propertyApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-propertyApp-frameworks.sh"; sourceTree = "<group>"; };
+		68FEE73822BA34F371D01DCA37977ADC /* Pods_propertyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_propertyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70809A35F22A356F19645A8D0863FF6E /* Pods-propertyApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-propertyApp-resources.sh"; sourceTree = "<group>"; };
+		717374084AD099624A826EE8491CD578 /* LGSideMenuController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGSideMenuController-dummy.m"; sourceTree = "<group>"; };
+		79F6D3330E4C672BD8CA0D03CC9EAFA8 /* ZAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZAlertView-prefix.pch"; sourceTree = "<group>"; };
+		84E23F1E0523914F7F93E13FB8D29D92 /* ZAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZAlertView.modulemap; sourceTree = "<group>"; };
+		86884A0211CDCEFE833F588AFF70BFF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89AAB4F96D7B5DC0E57740EBE5A1051F /* Pods-propertyApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-propertyApp.modulemap"; sourceTree = "<group>"; };
+		8EEA51F06AF4B1993E37D55FA86A2462 /* ResourceBundle-XMSegmentedControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XMSegmentedControl-Info.plist"; sourceTree = "<group>"; };
+		905F85B4486363E6DEF8CE6318B5EF77 /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = Pod/Classes/UIImage.swift; sourceTree = "<group>"; };
+		916E1015A281BF5D9D2B1A582A3AFAC5 /* XMSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMSegmentedControl.swift; path = Pod/Classes/XMSegmentedControl.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94035F58830880AFC0F4AE75D10258CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951C7724FCE19FA7F76218608E0B93C1 /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = Pod/Classes/UIColor.swift; sourceTree = "<group>"; };
+		A3B20386EEDD0FF35ABB711601FA2632 /* LGSideMenuController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuController.m; path = LGSideMenuController/LGSideMenuController.m; sourceTree = "<group>"; };
+		A5FE2F5B438ACE18364ED16CD94B9E03 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		A7A023A6C5C6F1148AEEE2CB87596A65 /* Pods-propertyApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-propertyApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A950F88543E73C070E1EB1473B3FD7EC /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		ABD4F451C57A2371D272DB3477105AE3 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD2500D9987DF55EA901432F592978F1 /* LGSideMenuController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGSideMenuController-umbrella.h"; sourceTree = "<group>"; };
+		BB7B104050BBBE4CE59676EDC84F7779 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC4FA711A03D4F140D8B3BDBBB552FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C005C11B029A3ED1C9B38A1E89473D56 /* XMSegmentedControl.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMSegmentedControl.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4C2150C78DB5254BBF417A583CFE53 /* Pods-propertyApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-propertyApp-umbrella.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D139F82C87CD3E3086B0CDA75286AC38 /* XMSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XMSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57EE715ADB20A68FBB72E000FD8B515 /* XMSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XMSegmentedControl.modulemap; sourceTree = "<group>"; };
+		D8C2183A95E723780E0AE3321D50E5FD /* LGSideMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGSideMenuController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0AD511E83F5BB871650D2A75CA2B99 /* DropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
+		DDEB320D86288A3122105EFD3690AA33 /* LGSideMenuController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGSideMenuController.xcconfig; sourceTree = "<group>"; };
+		ECA5FC85DDAC1162D4799799D0385A78 /* XMSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMSegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		F13BEA259ADD13279565E980159B4618 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		F7175281FE43550B009F6B9F7C496DF2 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		F93C4F746377A8435B5D5F1E1EC1797D /* ZAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC39C59710C01EA0409DE964C5C56D3F /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2322C4F1B74F0AFB3B70D8A795EB5717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBAC1789D5FEE5D9B3F5B3C048F14E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386219E36470043274B0C5998363965E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290C998F92562FDE77D91FB6DB8A89D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C337FDE516CBD8A464B27B52611E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38A0A69D41E0238F807CDE369308D2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44FA5934F6A58EDE141A1B6655BEED32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7078ED1B6AFCBEAE3BCD069125A91AF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDC1D81FBA48BC0F5705E9CB02FBC54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2E462451E22F062A36D19D1C2430C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD9B05C28443B4310325AB28ADB53EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024959F0C94FFCFB6605F7D7442B40E5 /* Pods-propertyApp */ = {
+			isa = PBXGroup;
+			children = (
+				94035F58830880AFC0F4AE75D10258CC /* Info.plist */,
+				89AAB4F96D7B5DC0E57740EBE5A1051F /* Pods-propertyApp.modulemap */,
+				A7A023A6C5C6F1148AEEE2CB87596A65 /* Pods-propertyApp-acknowledgements.markdown */,
+				3BAD427D00A572140F5EB3B7E98D2590 /* Pods-propertyApp-acknowledgements.plist */,
+				499CDED3F7F2CFD0B24AF8DE1ABB6F6C /* Pods-propertyApp-dummy.m */,
+				6652BB4251E2B85F865BF33A503A2F06 /* Pods-propertyApp-frameworks.sh */,
+				70809A35F22A356F19645A8D0863FF6E /* Pods-propertyApp-resources.sh */,
+				CB4C2150C78DB5254BBF417A583CFE53 /* Pods-propertyApp-umbrella.h */,
+				053E728471D12462A07535D5B5E58048 /* Pods-propertyApp.debug.xcconfig */,
+				1B6BF04D54F617BC80AD1CBC9A0AC23C /* Pods-propertyApp.release.xcconfig */,
+			);
+			name = "Pods-propertyApp";
+			path = "Target Support Files/Pods-propertyApp";
+			sourceTree = "<group>";
+		};
+		0459064DD703E3BAD146A3F9977EFA81 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFC4FA711A03D4F140D8B3BDBBB552FF /* Info.plist */,
+				8EEA51F06AF4B1993E37D55FA86A2462 /* ResourceBundle-XMSegmentedControl-Info.plist */,
+				D57EE715ADB20A68FBB72E000FD8B515 /* XMSegmentedControl.modulemap */,
+				52BC9A528E923596D50966C64EE59602 /* XMSegmentedControl.xcconfig */,
+				ECA5FC85DDAC1162D4799799D0385A78 /* XMSegmentedControl-dummy.m */,
+				1772E2E3500B6A04887908CFC5D66AF3 /* XMSegmentedControl-prefix.pch */,
+				086B7840551E5CACB787D464F85B2BB0 /* XMSegmentedControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XMSegmentedControl";
+			sourceTree = "<group>";
+		};
+		1D70B16B1A564D1B459076B785B4F29B /* ZAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				951C7724FCE19FA7F76218608E0B93C1 /* UIColor.swift */,
+				905F85B4486363E6DEF8CE6318B5EF77 /* UIImage.swift */,
+				2D680EAFBDC792A43314AC144D726947 /* ZAlertView.swift */,
+				92034FCD6CD8EF2370D1B11E75C66827 /* Support Files */,
+			);
+			path = ZAlertView;
+			sourceTree = "<group>";
+		};
+		207DE9852F50CED1966093B2CD600DB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86884A0211CDCEFE833F588AFF70BFF2 /* Info.plist */,
+				4C774C94E1845672A141E0C6E3981BD0 /* LGSideMenuController.modulemap */,
+				DDEB320D86288A3122105EFD3690AA33 /* LGSideMenuController.xcconfig */,
+				717374084AD099624A826EE8491CD578 /* LGSideMenuController-dummy.m */,
+				61C6E3D157111215ECE412AE5B903041 /* LGSideMenuController-prefix.pch */,
+				AD2500D9987DF55EA901432F592978F1 /* LGSideMenuController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LGSideMenuController";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4D82FD178AE5DE3785874FE97DE34055 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1499D30B136674DD5F9163F42A2688F /* DropDown */,
+				F1AD83427E4FD6B82CF6CB9F98A3E567 /* LGSideMenuController */,
+				F4D825DD8AE09D93BF67B1ACCAE3332F /* XMSegmentedControl */,
+				1D70B16B1A564D1B459076B785B4F29B /* ZAlertView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E1A117F621DE6A864A878FCC4DA20A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2430B315BBCFDF50C3D54D21F475D55B /* DropDown.modulemap */,
+				DB0AD511E83F5BB871650D2A75CA2B99 /* DropDown.xcconfig */,
+				26D77BDB0B60F6A041412EA52EC81B7C /* DropDown-dummy.m */,
+				4B1701803E1D6C69FB5927137BF2C8A1 /* DropDown-prefix.pch */,
+				A5FE2F5B438ACE18364ED16CD94B9E03 /* DropDown-umbrella.h */,
+				5188B0DF452FCEDB4FC40A9CE5CF240A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		69CAE8700CE0146066AA8022D6A5E113 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABD4F451C57A2371D272DB3477105AE3 /* DropDown.framework */,
+				D8C2183A95E723780E0AE3321D50E5FD /* LGSideMenuController.framework */,
+				68FEE73822BA34F371D01DCA37977ADC /* Pods_propertyApp.framework */,
+				C005C11B029A3ED1C9B38A1E89473D56 /* XMSegmentedControl.bundle */,
+				D139F82C87CD3E3086B0CDA75286AC38 /* XMSegmentedControl.framework */,
+				F93C4F746377A8435B5D5F1E1EC1797D /* ZAlertView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4D82FD178AE5DE3785874FE97DE34055 /* Pods */,
+				69CAE8700CE0146066AA8022D6A5E113 /* Products */,
+				A328A695B1674F16F3B19F2CF2EFAC98 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92034FCD6CD8EF2370D1B11E75C66827 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB7B104050BBBE4CE59676EDC84F7779 /* Info.plist */,
+				84E23F1E0523914F7F93E13FB8D29D92 /* ZAlertView.modulemap */,
+				467D24318B0E075F394F05917EFD4A6D /* ZAlertView.xcconfig */,
+				429A91B18C8C3173CF0785782E3D9D47 /* ZAlertView-dummy.m */,
+				79F6D3330E4C672BD8CA0D03CC9EAFA8 /* ZAlertView-prefix.pch */,
+				23F0973C4A6C7F46DD1328A0110367A2 /* ZAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZAlertView";
+			sourceTree = "<group>";
+		};
+		A328A695B1674F16F3B19F2CF2EFAC98 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				024959F0C94FFCFB6605F7D7442B40E5 /* Pods-propertyApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3BE499074A4129DD1754148577173A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31FD9703859A0261423A8082ADAA055B /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D1499D30B136674DD5F9163F42A2688F /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				A950F88543E73C070E1EB1473B3FD7EC /* DPDConstants.swift */,
+				FC39C59710C01EA0409DE964C5C56D3F /* DPDKeyboardListener.swift */,
+				F7175281FE43550B009F6B9F7C496DF2 /* DPDUIView+Extension.swift */,
+				F13BEA259ADD13279565E980159B4618 /* DropDown.swift */,
+				19898B0869CD9EAE456D59448E49C250 /* DropDown+Appearance.swift */,
+				1067C341CA2183F28A74586E7F69BF4E /* DropDownCell.swift */,
+				C3BE499074A4129DD1754148577173A6 /* Resources */,
+				4E1A117F621DE6A864A878FCC4DA20A4 /* Support Files */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		F1AD83427E4FD6B82CF6CB9F98A3E567 /* LGSideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				1E5508336EA112EED3672C25EF42E768 /* LGSideMenuController.h */,
+				A3B20386EEDD0FF35ABB711601FA2632 /* LGSideMenuController.m */,
+				207DE9852F50CED1966093B2CD600DB3 /* Support Files */,
+			);
+			path = LGSideMenuController;
+			sourceTree = "<group>";
+		};
+		F4D825DD8AE09D93BF67B1ACCAE3332F /* XMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				916E1015A281BF5D9D2B1A582A3AFAC5 /* XMSegmentedControl.swift */,
+				0459064DD703E3BAD146A3F9977EFA81 /* Support Files */,
+			);
+			path = XMSegmentedControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		396DB103E2E22F4094CD7838DE6FB64A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88840596164341D9AF422EFC20F108C /* Pods-propertyApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EAD6FE667C44C3B5573755F0BCB62B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A5308C2E0874E8C97AB9AC5A3A16E2 /* ZAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959FE06521C95D1EBE5E7775A034C06B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F1FC751431D1F2F88E5EA586C76D0E /* LGSideMenuController-umbrella.h in Headers */,
+				EE4DF94AA0C8673BFC25DD709AE1F529 /* LGSideMenuController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A1C83F7A1632C4F56EA70EBF0AB9E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E3F47B9B5BFF547C55AC7573340572 /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF438062A19D707BB356CECA7690ACB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6117927B9C135734D3EEAF0DDCA20A06 /* XMSegmentedControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5A24C03AB81A7A1F42EDB864DB2DD487 /* XMSegmentedControl-XMSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD08E3DE12430210807D88BF3009DDBF /* Build configuration list for PBXNativeTarget "XMSegmentedControl-XMSegmentedControl" */;
+			buildPhases = (
+				926E7EED13C1B437D6E391EB4C445684 /* Sources */,
+				7EDC1D81FBA48BC0F5705E9CB02FBC54 /* Frameworks */,
+				1807F00410EB995877A99F877C3E1FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XMSegmentedControl-XMSegmentedControl";
+			productName = "XMSegmentedControl-XMSegmentedControl";
+			productReference = C005C11B029A3ED1C9B38A1E89473D56 /* XMSegmentedControl.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5C4C16D41485E07534F53EB05FD612EA /* XMSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124E7712654E3E1894F8D6DEA9D4780D /* Build configuration list for PBXNativeTarget "XMSegmentedControl" */;
+			buildPhases = (
+				7235381C00B14FA8E2485BC79FD6867F /* Sources */,
+				386219E36470043274B0C5998363965E /* Frameworks */,
+				7921A7D5139C07753122EBB2B1786A86 /* Resources */,
+				CF438062A19D707BB356CECA7690ACB4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0940E34B649CDFFABB1C17C060EC9EE0 /* PBXTargetDependency */,
+			);
+			name = XMSegmentedControl;
+			productName = XMSegmentedControl;
+			productReference = D139F82C87CD3E3086B0CDA75286AC38 /* XMSegmentedControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F766ADB76A46AB732825D44C4BAAABF /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEBA9E088F9F2D1C4E4D758CD3F35F4A /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				2C0B57F66C794301ABC64C8C58FA49E1 /* Sources */,
+				2322C4F1B74F0AFB3B70D8A795EB5717 /* Frameworks */,
+				D1EE6F4CCC213A2F33B327428BD4C413 /* Resources */,
+				B0A1C83F7A1632C4F56EA70EBF0AB9E1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = ABD4F451C57A2371D272DB3477105AE3 /* DropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A092111711F1F2978FF1D081560D0E46 /* ZAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F89992BB3C32DFA7C0BC42E6C94DB1 /* Build configuration list for PBXNativeTarget "ZAlertView" */;
+			buildPhases = (
+				0306622764CE00F1BDAB56E32F2B6B4A /* Sources */,
+				9F2E462451E22F062A36D19D1C2430C8 /* Frameworks */,
+				7EAD6FE667C44C3B5573755F0BCB62B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZAlertView;
+			productName = ZAlertView;
+			productReference = F93C4F746377A8435B5D5F1E1EC1797D /* ZAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E49FE9BDB48944742C66AF4686E3FCFC /* Pods-propertyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE3A267113936FB1CC9FB023F1ED2A8 /* Build configuration list for PBXNativeTarget "Pods-propertyApp" */;
+			buildPhases = (
+				3E2674C22B7EAE1EEEA86985A23FBF94 /* Sources */,
+				44C337FDE516CBD8A464B27B52611E33 /* Frameworks */,
+				396DB103E2E22F4094CD7838DE6FB64A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				980A038A7C6A2922CBBF1812C5AB359D /* PBXTargetDependency */,
+				8BBB55695A978205B07619D0C5D621D6 /* PBXTargetDependency */,
+				9E531B5186DF3C3E3EB660EBC9E958D6 /* PBXTargetDependency */,
+				4CB7DA73CF4435FF7E7417F04FCCBF99 /* PBXTargetDependency */,
+			);
+			name = "Pods-propertyApp";
+			productName = "Pods-propertyApp";
+			productReference = 68FEE73822BA34F371D01DCA37977ADC /* Pods_propertyApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E69B92A33BF0DA69766632232536DFFD /* LGSideMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147D6272C8DCC0DD3277EEEC608549A1 /* Build configuration list for PBXNativeTarget "LGSideMenuController" */;
+			buildPhases = (
+				1A339EAF3B3C92F8AE86C4442E43D82B /* Sources */,
+				44FA5934F6A58EDE141A1B6655BEED32 /* Frameworks */,
+				959FE06521C95D1EBE5E7775A034C06B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGSideMenuController;
+			productName = LGSideMenuController;
+			productReference = D8C2183A95E723780E0AE3321D50E5FD /* LGSideMenuController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 69CAE8700CE0146066AA8022D6A5E113 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F766ADB76A46AB732825D44C4BAAABF /* DropDown */,
+				E69B92A33BF0DA69766632232536DFFD /* LGSideMenuController */,
+				E49FE9BDB48944742C66AF4686E3FCFC /* Pods-propertyApp */,
+				5C4C16D41485E07534F53EB05FD612EA /* XMSegmentedControl */,
+				5A24C03AB81A7A1F42EDB864DB2DD487 /* XMSegmentedControl-XMSegmentedControl */,
+				A092111711F1F2978FF1D081560D0E46 /* ZAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1807F00410EB995877A99F877C3E1FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7921A7D5139C07753122EBB2B1786A86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F104A7D45BF4742EF3E44CCA0D65E77A /* XMSegmentedControl.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1EE6F4CCC213A2F33B327428BD4C413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4A9CFDC8A87BA336CB32A38C20239D /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0306622764CE00F1BDAB56E32F2B6B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C045594FDD3D495B0638BFEE1D60E9 /* UIColor.swift in Sources */,
+				B5B90139AFA30B849CE6EAFBA6133E8C /* UIImage.swift in Sources */,
+				97E4AD3C84E6562DE0F3CB8C4C4C7086 /* ZAlertView-dummy.m in Sources */,
+				6E241480198A2606CAA01FFBF593F8A2 /* ZAlertView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A339EAF3B3C92F8AE86C4442E43D82B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FCB8C90280A6A920800EC688FDD61F /* LGSideMenuController-dummy.m in Sources */,
+				C1FCBAC9363DD758CDA98D62B1ADF383 /* LGSideMenuController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C0B57F66C794301ABC64C8C58FA49E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAD7D08B301985BF129AC5A2B3D5CF4 /* DPDConstants.swift in Sources */,
+				567F0E2EA3DD673DA28562ADFC489BE4 /* DPDKeyboardListener.swift in Sources */,
+				81A9042F668B62EA4E40C57566BEE0A2 /* DPDUIView+Extension.swift in Sources */,
+				0BA986536326BCC266A0157A8C204CF8 /* DropDown+Appearance.swift in Sources */,
+				311D5A4AFB0F3AEEFCABAA80BE1073D6 /* DropDown-dummy.m in Sources */,
+				9811132B36B59EEB8D144F8BCC0B443E /* DropDown.swift in Sources */,
+				D2B2C73D23209F8B5571D5172C800ED8 /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2674C22B7EAE1EEEA86985A23FBF94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77E0415CC80E10F2D5C7E6A1170D71B /* Pods-propertyApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7235381C00B14FA8E2485BC79FD6867F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE71EFBC33B2157BAFB9B295E08E6903 /* XMSegmentedControl-dummy.m in Sources */,
+				23B246CDBD02E9C527B6C0AEFD35A372 /* XMSegmentedControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926E7EED13C1B437D6E391EB4C445684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0940E34B649CDFFABB1C17C060EC9EE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XMSegmentedControl-XMSegmentedControl";
+			target = 5A24C03AB81A7A1F42EDB864DB2DD487 /* XMSegmentedControl-XMSegmentedControl */;
+			targetProxy = FB57D369128885FCFCEBFF13D09493A3 /* PBXContainerItemProxy */;
+		};
+		4CB7DA73CF4435FF7E7417F04FCCBF99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZAlertView;
+			target = A092111711F1F2978FF1D081560D0E46 /* ZAlertView */;
+			targetProxy = 1A9FED37E4105F5A3AE75063E3D1803E /* PBXContainerItemProxy */;
+		};
+		8BBB55695A978205B07619D0C5D621D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGSideMenuController;
+			target = E69B92A33BF0DA69766632232536DFFD /* LGSideMenuController */;
+			targetProxy = 826A9F133CBBB7D6E3F2726135F451D9 /* PBXContainerItemProxy */;
+		};
+		980A038A7C6A2922CBBF1812C5AB359D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = 9F766ADB76A46AB732825D44C4BAAABF /* DropDown */;
+			targetProxy = 8C1657E6A0D9818CC01FF1EC57C30513 /* PBXContainerItemProxy */;
+		};
+		9E531B5186DF3C3E3EB660EBC9E958D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMSegmentedControl;
+			target = 5C4C16D41485E07534F53EB05FD612EA /* XMSegmentedControl */;
+			targetProxy = 2998AD7044AA59F8988A07EC85531478 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1185BAF4F525615C0C1CD009D3ED399C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467D24318B0E075F394F05917EFD4A6D /* ZAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZAlertView/ZAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZAlertView/ZAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A0C13CB0C0B0B6409A39B2720A01717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDEB320D86288A3122105EFD3690AA33 /* LGSideMenuController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LGSideMenuController/LGSideMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGSideMenuController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGSideMenuController/LGSideMenuController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LGSideMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D5359BCF74C9BBC0985D74EC0176F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BC9A528E923596D50966C64EE59602 /* XMSegmentedControl.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XMSegmentedControl";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XMSegmentedControl/ResourceBundle-XMSegmentedControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XMSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7F24907AC14F6B3D2F1F2A140CE8A326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467D24318B0E075F394F05917EFD4A6D /* ZAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZAlertView/ZAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZAlertView/ZAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D1EE7D39D75F5C02762915DEFE45F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BC9A528E923596D50966C64EE59602 /* XMSegmentedControl.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XMSegmentedControl/XMSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XMSegmentedControl/XMSegmentedControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XMSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5711154D4D2CFD32F1C712C9E661EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0AD511E83F5BB871650D2A75CA2B99 /* DropDown.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7DB46BBFB5AD10BAD66231E4BF76647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0AD511E83F5BB871650D2A75CA2B99 /* DropDown.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E252E854580B2F0C8F2EAB2A982736B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BC9A528E923596D50966C64EE59602 /* XMSegmentedControl.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XMSegmentedControl/XMSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XMSegmentedControl/XMSegmentedControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XMSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E26E42F273A1F7247C3DD3226AEDB93D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BC9A528E923596D50966C64EE59602 /* XMSegmentedControl.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XMSegmentedControl";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XMSegmentedControl/ResourceBundle-XMSegmentedControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XMSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F1315CF7DA0A99DCB22C688C5E492D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDEB320D86288A3122105EFD3690AA33 /* LGSideMenuController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LGSideMenuController/LGSideMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGSideMenuController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGSideMenuController/LGSideMenuController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LGSideMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD24555504C15020DFA5B734CD531E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053E728471D12462A07535D5B5E58048 /* Pods-propertyApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-propertyApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-propertyApp/Pods-propertyApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_propertyApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDDB858746DEF05DDBC834F7182B121A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B6BF04D54F617BC80AD1CBC9A0AC23C /* Pods-propertyApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-propertyApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-propertyApp/Pods-propertyApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_propertyApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		124E7712654E3E1894F8D6DEA9D4780D /* Build configuration list for PBXNativeTarget "XMSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E252E854580B2F0C8F2EAB2A982736B9 /* Debug */,
+				9D1EE7D39D75F5C02762915DEFE45F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147D6272C8DCC0DD3277EEEC608549A1 /* Build configuration list for PBXNativeTarget "LGSideMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1315CF7DA0A99DCB22C688C5E492D50 /* Debug */,
+				1A0C13CB0C0B0B6409A39B2720A01717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F89992BB3C32DFA7C0BC42E6C94DB1 /* Build configuration list for PBXNativeTarget "ZAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1185BAF4F525615C0C1CD009D3ED399C /* Debug */,
+				7F24907AC14F6B3D2F1F2A140CE8A326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE3A267113936FB1CC9FB023F1ED2A8 /* Build configuration list for PBXNativeTarget "Pods-propertyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD24555504C15020DFA5B734CD531E0B /* Debug */,
+				FDDB858746DEF05DDBC834F7182B121A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD08E3DE12430210807D88BF3009DDBF /* Build configuration list for PBXNativeTarget "XMSegmentedControl-XMSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5359BCF74C9BBC0985D74EC0176F89 /* Debug */,
+				E26E42F273A1F7247C3DD3226AEDB93D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEBA9E088F9F2D1C4E4D758CD3F35F4A /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5711154D4D2CFD32F1C712C9E661EF4 /* Debug */,
+				D7DB46BBFB5AD10BAD66231E4BF76647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

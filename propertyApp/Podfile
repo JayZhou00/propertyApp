@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+ use_frameworks!
+pod 'ZAlertView'
+pod "XMSegmentedControl"
+pod 'DropDown'
+pod 'LGSideMenuController', '~> 1.0.0'
+target ‘propertyApp’
+
+
+
